@@ -1,0 +1,23 @@
+body {
+    background: rgb(20 20 20 / 70%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::selection{background: transparent; color: rgba(255, 255, 255, 0.5);}
+
+.selector {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 42px;
+}
+.selector button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 42px;
+    display: flex;
+    opacity: 0.2;
+    text-decoration-skip-ink: none;
+    transition: 0.3s all;
+}
